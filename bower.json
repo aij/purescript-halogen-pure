@@ -1,0 +1,22 @@
+{
+  "name": "purescript-halogen-pure",
+  "authors": [
+    "Ivan Jager <aij+git@mrph.org>"
+  ],
+  "description": "Functions to create pure Halogen components.",
+  "keywords": [
+    "purescript",
+    "pure",
+    "halogen",
+    "render",
+    "html"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
