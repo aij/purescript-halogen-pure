@@ -14,11 +14,12 @@ let
     sha256 = "0npvnr3h4vnq6ibwi9gvxgijyjnwmmyvqglq471wkkn6b4ygry9v";
   });
 in pkgs.stdenv.mkDerivation {
-  name = "purescript-ccap-codegen";
+  name = "purescript-halogen-pure";
   src = ./.;
-  buildInputs = with pkgs; with easy-ps; [
+  buildInputs = with pkgs; with nodePackages; with easy-ps; [
     purs
-    spago
     nodejs-10_x
+    bower
+    pulp
   ];
 }

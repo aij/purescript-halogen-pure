@@ -12,11 +12,18 @@
     "html"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aij/purescript-halogen-pure.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "purescript-halogen": "^5.0.0-rc.5"
+  }
 }
